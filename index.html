@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gerador Qr Code</title>
+</head>
+<body>
+
+        <div class="container">
+            <h1>Crie o seu <span>qr code</span> aqui:</h1>
+            <textarea style="resize: none;" maxlength="256" rows="2" placeholder="Cole o seu Link aqui:"></textarea>
+            <br>
+            <button onclick="gerarQrCode()">Gerar QR CODE</button>
+            <br>
+            <div class="img">
+                <img id="QrCode-img" style="border-radius: 20px;">
+            </div>
+        </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
